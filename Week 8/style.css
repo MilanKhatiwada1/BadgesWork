@@ -1,0 +1,22 @@
+body {
+
+	color: blue;
+}
+
+form {
+
+	background-color: lightgreen;
+
+}
+
+legend {
+	font-size: 20px;
+	background-color: yellow;
+
+}
+
+fieldset {
+
+	background-color: violet;
+	border-radius: 20px;
+}

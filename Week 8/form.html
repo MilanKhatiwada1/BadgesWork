@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Elements</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<form action="#" method="get" onsubmit="return validateform(this);">
+		<fieldset>
+			<legend>Personal Information</legend>
+		Enter First Name:<br>
+		<input type="text" name="firstname" value=""><br>
+		Enter Last Name:<br>
+		<input type="text" name="lastname" value=""><br>
+		Select Gender:<br>
+		<input type="radio" name="gender" value="male" checked>Male<br>
+		<input type="radio" name="gender" value="female" checked>Female<br>
+		<input type="radio" name="gender" value="other" checked>Other<br>	
+		</fieldset>
+		Enter Username:<br>
+		<input type="text" name="username"><br>
+		Enter Password:<br>
+		<input type="password" name="pwd"><br><br>
+		<input type="checkbox" name="sports1" value="cricket">Cricket<br>
+		<input type="checkbox" name="sports2" value="cricket">Football<br>
+		<input type="checkbox" name="sports3" value="cricket">Tennis<br>
+		Select Color:
+		<input type="color" name="favcolor"><br><br>
+		Enter date before 2000-01-01:<br>
+		<input type="before" name="bday1" max="1999-12-31"><br><br>
+		Enter date after 1999-12-31:<br>
+		<input type="after" name="bday2" max="2000-01-01"><br><br>
+		Enter a number: (between 0 and 999):
+		<input type="number" name="number" max="999" min="0"><br><br>
+		Select time:
+		<input type="time" name="time"><br><br>
+		Select Planet:
+		<select name="planet">
+			<option>--select a planet--</option>
+			<option>Mars</option>
+			<option>Earth</option>
+			<option>Jupiter</option>
+			<option>Pluto</option>
+			<option>Saturn</option>
+		</select><br><br>
+		<textarea name="message" rows="15" cols="80">Enter your message here...</textarea>
+
+		<input type="button" onclick="alert('Hi! This is an successful delivery!!!')" value="CLick Me"><br><br>
+
+		<input type="submit" name="Submit">
+		<input type="reset">
+		</form>
+</body>
+</html>

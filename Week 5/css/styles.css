@@ -1,0 +1,108 @@
+/*  ELEMENT SELECTORS - these selectors identify the elements to be styled based on their tag. */
+body {
+    font-size: 10px;
+    background: rgb(149, 194, 215);
+}
+
+a {
+    text-decoration: none; /* This style removes the default blue color and underline from our anchor tags*/
+}
+
+/* CLASS SELECTORS - these selectors identify what needs to be styled based on the classes we give to elements */
+.logo-text {
+    background: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 37px;
+}
+
+/* The selector used for this next block selects all "thumbnail-item" classes
+that immediately follow another "thumbnail-item" class. For our page, this
+will style list items 2-5 while list item 1 will not be affected by any rules
+placed here. */
+.thumbnail-item+.thumbnail-item {
+    margin-top: 10px;
+}
+
+
+.thumbnail-item {
+
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    display: block; /* display is style that is often used to help control layout
+    and affects how an element is rendered by our browser */
+}
+
+.thumbnail-list {
+
+    display: inline-flex;
+    flex-direction: row-reverse;
+    list-style: none; /* This style removes the bullet points from our unordered list */
+    padding: 0;
+}
+
+.thumbnail-image {
+
+    display: block;
+    width: 100%;
+}
+
+.thumbnail-title {
+    display: block;
+    margin: 0;
+    padding: 4px 10px;
+    background: rgb(96, 125, 139);
+    color: rgb(202, 238, 255);
+    font-size: 18px;
+}
+
+footer {
+
+    font-size: 40px;
+    text-align-last: center;
+    margin-top: 40px;
+    background: pink;
+}
+
+@media screen and (max-width: 768px){
+
+    .logo-text {
+
+    background: violet;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+    .thumbnail-title {
+
+    margin-top: 10px; 
+    }
+
+    .thumbnail-list {
+    display: block;
+    width: 100%;
+}    
+
+    .thumbnail-image {
+
+        border-radius: 40px;
+    }
+
+    body {
+
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

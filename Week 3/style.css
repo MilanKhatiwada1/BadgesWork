@@ -1,0 +1,27 @@
+body {
+
+	background-color: lightblue;
+}
+
+header h1{
+
+	text-align-last: center;
+	background-color: white;
+	border-radius: 30px;
+
+}
+
+.image {
+
+	padding: 20px;
+	margin: 30px;
+	display: grid;
+	justify-content: space-around;
+
+}
+
+p {
+
+	font-size: 30px;
+	background-color: pink;
+}

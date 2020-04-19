@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+}
+
+header{
+
+	font-size: 90px;
+	text-align-last: center;
+	font-weight: 20px;
+	background-color: lightgreen;
+	border-radius: 90px;
+}
+
+.info p{
+
+	margin-top: 50px;
+	background-color: yellow;
+}
+
+img[src="imageso.jpg"] {float : right;
+border : 3px dashed red}
+
+img[src="imagesi.jpg"] {float: left;
+border: 3px dashed blue}
+
+footer {
+
+	background-color: lightblue;
+	text-align-last: center;
+	font-size: 40px;
+	font-weight: 30px;
+}
